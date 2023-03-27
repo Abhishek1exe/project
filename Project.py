@@ -1,10 +1,11 @@
-#from __future__ import print_function, division
+
 import streamlit as st
 import numpy as np
 from PyAstronomy import pyasl
 import matplotlib.pylab as plt
 from PyAstronomy.pyasl import planck
 from PIL import Image
+st.title("MSc PHYSICS PROJECT")
 tab1, tab2,tab3 = st.tabs(["Keplerian orbit ", "Boltzman radiation","Binary Orbit"])
 with tab1:
         

@@ -5,7 +5,7 @@ from PyAstronomy import pyasl
 import matplotlib.pylab as plt
 from PyAstronomy.pyasl import planck
 from PIL import Image
-tab1, tab2,tab3 = st.tabs(["Keplerian orbit ", "Boltzman radiation","Binary"])
+tab1, tab2,tab3 = st.tabs(["Keplerian orbit ", "Boltzman radiation","Binary Orbit"])
 with tab1:
         
     st.title("CALCUALTE THE KEPLERIAN ORBIT")

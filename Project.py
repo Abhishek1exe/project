@@ -129,15 +129,6 @@ with tab2:
     #plt.show()
     st.pyplot(fig1)
 
-    st.header("Wien's Displacement Law")
-    st.subheader("This Law is usefull to find the temperature of the distance planet")
-    st.write("b=Wein's Displacement constant in 28.97 mK")
-    st.write("K=temperature in kelvin")
-    b=2.8971*10**-3
-    st.write(" max wavelent coming from the star in Angstron  ")
-    lam1=st.slider('max wavelenght', min_value=1000,max_value=10000,value=5000)
-    W=lam1*10**-10
-    Temp=b/W
-    st.write("temperacture of the star is=" , Temp, ("kelvin"))
+    
         
 
